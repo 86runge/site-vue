@@ -23,13 +23,14 @@ const routes = [{
     {
       path: '/home',
       component: Home,
-      name: 'home',
-      meta: {
-        requireAuth: true
-      }
+      name: 'home'
     },
     {
       path: '/login',
+      component: Login
+    },
+    {
+      path: '/register',
       component: Login
     },
     {

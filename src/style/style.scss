@@ -1,13 +1,14 @@
+html, body {
+  font-size: 12px;
+}
+
 #wrap {
   min-width: 1360px;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
 }
 
 #header {
-  height: 45px;
+  height: 30px;
 }
 
 #section {
